@@ -6,13 +6,13 @@ else
 PROG=$1
 fi
 
-one=( 1 1 7 1)
-two=( 2 3 5 2)
-three=( 2 2 2 0)
-four=( 4 5 4 8)
+one=( 1 1 7 3)
+two=( 2 3 5 1)
+three=( 2 2 8 5)
+four=( 4 5 11 7)
 five=( 8 7 8 14)
 six=( 14 3 14 6)
-result=( 1 -2 2 -1)
+result=( -1 -2 6 5)
 
 for ind in `seq 0 3`; do
         out=` $PROG ${one[$ind]} ${two[$ind]} ${three[$ind]} ${four[$ind]} ${five[$ind]} ${six[$ind]}`
