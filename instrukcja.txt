@@ -1,0 +1,10 @@
+Instrukcja kompilacji i uruchamiania:
+
+g++ logika3.1.1.cpp -o logika3.1.1            ./logika3.1.1   z 6 argumentami
+
+g++ logika3.1.1.2.cpp -o logika3.1.1.2        ./logika3.1.1.2 z 6 argumentami
+
+bash logika3.1.1.sh                       // sprawdzenie 1 programu
+bash logika3.1.1.sh ./logika3.1.1.2       // sprawdzenie 2 programu
+
+g++ logika3.2b.cpp -o logika3.2b            ./logika3.2b --not not.txt --or or.txt --and and.txt --impl --impl.txt
